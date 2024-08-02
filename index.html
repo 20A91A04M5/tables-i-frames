@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tables</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+<table border="2px" cellpadding="10px" align="center">
+    <colgroup>
+        <col bgcolor="lightgreen">
+        <col bgcolor="lightblue">
+        <col bgcolor="orange">
+    </colgroup>
+    <tr>
+        <th>column1</th>
+        <th>column2</th>
+        <th>column3</th>
+    </tr>
+    <tr>
+        <td rowspan="2">row 1 cell 1</td>
+        <td>row 1 cell 2</td>
+        <td>row 1 cell 3</td>
+    </tr>
+    <tr>
+        <td>row2 cell2</td>
+        <td>row2 cell3</td>
+    </tr>
+    <tr>
+        <td colspan="3" bgcolor="red">row3 cell 1</td>
+    </tr>
+</table>
+<hr>
+<hr>
+<table border="2px" cellpadding="10px" align="center">
+    <colgroup>
+        <col bgcolor="lightgreen">
+        <col bgcolor="lightblue">
+        <col bgcolor="orange">
+        <col bgcolor="yellow">
+    </colgroup>
+        <caption>A test with merged cells</caption>
+        <tr>
+            <th rowspan="2"> </th>
+            <th colspan="2" bgcolor="red">Average</th>
+            <th rowspan="2">Red eyes</th>
+        </tr>
+        <tr>
+            <th>Height</th>
+            <th>Weight</th>
+        </tr>
+        <tr>
+            <td><b>Males</b></td>
+            <td>1.9</td>
+            <td>0.003</td>
+            <td>40%</td>
+        </tr>
+        <tr>
+            <td><b>Females</b></td>
+            <td>1.7</td>
+            <td>0.002</td>
+            <td>43%</td>
+        </tr>
+
+    </table>
+    <hr>
+    <hr>
+    <table border="2px" cellpading="50px" align="center">
+        <colgroup>
+        <col bgcolor="lightgreen">
+        <col bgcolor="lightblue">
+        <col bgcolor="orange">
+        <col bgcolor="pink">
+        </colgroup>
+        <caption>Full Stack</caption>
+        <tr>
+            <th bgcolor="yellow">Category</th>
+            <th colspan="2" align="center" bgcolor="yellow">Technology</th>
+            <th bgcolor="yellow">Description</th>
+        </tr>
+        <tr>
+            <td rowspan="3" align="center">frontend</td>
+            <td align="center">html</td>
+            <td align="center">5</td>
+            <td align="center">Standard markup language for creating web pages.</td>
+        </tr>
+        <tr>
+            <td align="center">css</td>
+            <td align="center">3</td>
+            <td align="center">Style sheet language used for describing the presentation of a document written in HTML.</td>
+        </tr>
+        <tr>
+            <td align="center">js</td>
+            <td align="center">ES6</td>
+            <td align="center">Scripting language used to create and control dyamic website content.</td>
+        </tr>
+        <tr>
+            <td rowspan="2" align="center">backend</td>
+            <td colspan="2" align="center">node.js</td>
+            <td align="center">Java Script runtime built on chrome's v8 javascript engine.</td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">django</td>
+            <td align="center">High-level python web framework that encourages rapid development and clean,pragmatic design.</td>
+        </tr>
+        <tr>
+            <td rowspan="2" align="center">database</td>
+            <td colspan="2" align="center">My sql</td>
+            <td align="center">Relational database management system based on SQL- Structured Query Language.</td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">Mongodb</td>
+            <td align="center">Document-oriented no SQL database used for high volume data storage.</td>
+        </tr>
+    </table>
+    <hr><hr>
+    <center><iframe src="file:///C:/Users/prasad/Desktop/tirumala/tables/table.html" width="500" height="300"></iframe></center>
+</body>
+</html>
